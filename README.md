@@ -1,9 +1,15 @@
-# raspberry-craft
+# raspi-craft
 A guide and starting files for running a Minecraft server on a Raspberry Pi 5 using [Purpur](https://purpurmc.org/docs/purpur/), [`GNU Screen`](https://www.gnu.org/software/screen/)* and some scripts. At the end of this guide, you should have a Raspberry Pi that will launch a GNU Screen session on reboot. That Screen session will display the server output, current RAM/CPU usage and a blank terminal. You will then be able to remotely access the Screen session using SSH from any other computer on the network. 
 
 Throughout this guide, all command line commands and filenames will be formatted like `this`. All keystrokes will be formatted like `<this>`. Anything optional will surrounded in [ ], like `[so]`. Placeholder values that should be replaced will be encapsulated like `(this)`.
 
 \* Technically it's just called Screen, but trying to Google for that is one of Dante's Circles.
+
+## Table of Contents
+There's a premade Github version in the top right of this panel! Look for this button:
+
+<img width="939" height="500" alt="The table of contents button" src="https://github.com/user-attachments/assets/dff2d678-4878-4145-a3e3-09b736f70d32" />
+
 ## Required materials
 * Raspberry Pi 5* (other models may work, but RAM may be a limiting factor). I purchased the [Complete Kit from Vilros for $150](https://vilros.com/products/raspberry-pi-5?variant=40082990399582).
   * Additional hardware for the Pi including:
