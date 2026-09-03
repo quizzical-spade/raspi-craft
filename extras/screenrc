@@ -20,6 +20,7 @@
 #*******************************************************************************
 #Quiz's Settings
 #*******************************************************************************
+# Make sure this file is named .screenrc and lives in ~/ !
 vbell off
 startup_message off
 term screen-256color
