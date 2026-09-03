@@ -59,7 +59,9 @@ If you choose to disable the GUI, select "boot into command line", rather than "
 > I completed them on my Windows workstation.
 
 ### First run
-Get the [.jar file from Purpur](https://purpurmc.org/docs/purpur/#downloads). I ran the latest supported version, which is 1.20.6. Make a folder called `Minecraft_server` and put the .jar in it. Open the Terminal app or just Command Prompt. `cd` into the `Minecraft_server` directory. `touch start.bat` to create a BATCH (Windows scripting) file. Edit the .bat in notepad and put the following code inside it. **Make sure you change the SERVER_NAME parameter to match that of your .jar file.**
+Get the [.jar file from Purpur](https://purpurmc.org/docs/purpur/#downloads). We're using Purpur because it offers more back-end customization options than Paper does. This gives us finer control over how we tune the server's performance.
+
+This guide took a few years, so I ran version 1.20.6, but you should download and run the latest version of Purpur. Make a folder called `Minecraft_server` and put the .jar in it. Open the Terminal app or just Command Prompt. `cd` into the `Minecraft_server` directory. `touch start.bat` to create a BATCH (Windows scripting) file. Edit the .bat in notepad and put the following code inside it. **Make sure you change the JAR_NAME parameter to match that of your .jar file.**
 
 ```
 java -Xms4096M -Xmx4096M -jar (JAR_NAME).jar --nogui
@@ -429,3 +431,6 @@ java -Xms4096M -Xmx4096M -jar (JAR_NAME).jar --nogui
 
 ```
 Then run `sudo chmod +x start.sh` to make it executable. You should be prompted for your sudo password. Now, you can run `./start.sh`. The server will start and other people should be able to connect. Congratulations, you have created a Minecraft server!
+
+# What's next?
+There are additional features to add and quality of life improvements to make. If you want to dive deeper into the world of Minecraft system administration, check out the `extras` folder in this repo. [Start with `EXTRAS.md`!](https://github.com/quizzical-spade/raspi-craft/blob/main/extras/EXTRAS.md)
