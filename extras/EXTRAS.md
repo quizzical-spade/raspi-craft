@@ -33,7 +33,7 @@ Screen is a baby form of containerization software. On a standard Windows comput
 ### 1c: Configuring your GNU Screen
 Before we enter Screen, we're going to make things a little more user friendly.
 
-Screen gets its config from `~/.screenrc`. I have provided my screenrc file (`~/extras/.screenrc` in this repo), so just copy it into your system clipboard, create a screenrc with `vim ~/.screenrc`, enter `i`nsert mode and `<Ctrl+Shift+V>` to paste it in. Save with `<:wq>` and you should be good to test.
+Screen gets its config from `~/.screenrc`. I have provided my screenrc file (`~/extras/screenrc` in this repo), so just copy it into your system clipboard, create a screenrc with `vim ~/.screenrc`, enter `i`nsert mode and `<Ctrl+Shift+V>` to paste it in. Save with `<:wq>` and you should be good to test.
 
 ### 1d: GNU Screen crash course
 Once `screen` is installed, things can real Inception-shaped fast, so read this section fully. When in doubt, type `<Ctrl+A><\><y>`, then type `clear<Enter>`. This immediately kills the active Screen session and then clears all text from the terminal.
