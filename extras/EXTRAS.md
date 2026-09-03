@@ -902,7 +902,8 @@ In my case, my remote network is managed by a network engineer, so I'm not conce
 
 A picture is worth a thousand words, unless I drew it. Then it's about 500.
 
-<img width="1224" height="1041" alt="ssh_reverse_tunnel" src="https://github.com/user-attachments/assets/0254bd1d-9d09-42b0-922e-bfa63ea75cfe" />
+<img width="1224" height="1041" alt="ssh_reverse_tunnel" src="https://github.com/user-attachments/assets/b57379c4-f1a8-4b85-a4da-8f2860a4a1cf" />
+
 
 ### How do I script it?
 The theme of this section is: "Well shit, if it's stupid but it works..." so don't take anything here to be good style, good form, or a good idea.
